@@ -1,4 +1,4 @@
-//
+;//
 //  GESViewController.h
 //  dynamicsTest
 //
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GESViewController : UIViewController
+@interface GESViewController : UIViewController <UIDynamicAnimatorDelegate,UIAccelerometerDelegate>
+
+@property (weak, nonatomic) IBOutlet UIView *viewObject;
+@property (weak, nonatomic) IBOutlet UIView *viewGreenObject;
 
 @end
