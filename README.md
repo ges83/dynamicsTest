@@ -10,7 +10,7 @@ Usage
 
 For iPhone, you can rotate the device/simulator to see how they "boxes" are affected by gravity.
 
-For iPad, aside of the iPhone functionality, you can control gravity by labels.
+For iPad, aside of the iPhone functionality, you can control gravity by buttons.
 
 Requirements
 ------------
